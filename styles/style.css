@@ -1,0 +1,72 @@
+/* Universal */
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* ========>header section<========== */
+
+/* ------> Nav Bar <----- */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 120px;
+}
+
+.nav-img {
+    width: 40px;
+    height: 20px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 0px 10px;
+    gap: 10px;
+}
+
+.nav-links > div > p > a {
+    text-decoration: none;
+}
+
+
+/* -----> Header Banner <-------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query For Mobile Device */
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-links{
+        flex-direction: column;
+    }
+}
