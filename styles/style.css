@@ -100,11 +100,41 @@ body {
 @media screen and (max-width: 576px) {
     .navbar {
         flex-direction: column;
+        margin: 20px auto;
     }
 
     .nav-links {
         flex-direction: column;
     }
 
-    
+
+
+
+    .banner-container {
+        flex-direction: column-reverse;
+        margin-top: 25px;
+        padding: 50px 50px;
+    }
+
+    .banner-img {
+        width: 250px;
+        height: 223px;
+    }
+
+    .banner-title {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .banner-content {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-content-container {
+        text-align: center;
+        align-items: center;
+    }
+
 }
