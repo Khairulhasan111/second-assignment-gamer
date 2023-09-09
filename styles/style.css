@@ -310,16 +310,47 @@ body {
 
 /* ======> Footer <========= */
 
-
+.footer{
+    background: #0B0223;
+    color: white;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
 
 .footer-title {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    color: white;
 }
 
+.footer-sites{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
 
+.footer-logo{
+    text-align: center;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-secure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
 
 
@@ -500,4 +531,41 @@ body {
         background: #FFF;
     }
 
+
+
+
+
+    .footer{
+        text-align: center;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .footer-sites{
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        
+    }
+
+    .footer-logo{
+        text-align: center;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-secure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 }
