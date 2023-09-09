@@ -89,6 +89,36 @@ body {
 
 
 
+/* =======> Know More Section <======= */
+
+.know-more-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 120px 25px 120px;
+
+}
+
+.know-img {
+    width: 600px;
+    height: 400px;
+}
+
+.know-content{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -135,6 +165,27 @@ body {
     .banner-content-container {
         text-align: center;
         align-items: center;
+    }
+
+
+
+
+
+    .know-more-section {
+        flex-direction: column;
+        padding: 0px;
+        padding-top: 25px;
+    }
+
+    .know-img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .know-content{
+        text-align: center;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 
 }
